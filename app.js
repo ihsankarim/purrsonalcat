@@ -15,6 +15,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use(morgan('dev'));
 
+app.get('/', (req, res) => {
+  res.redirect('/doc');
+});
+
 app.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 const v1 = require('./src/routes/index');
