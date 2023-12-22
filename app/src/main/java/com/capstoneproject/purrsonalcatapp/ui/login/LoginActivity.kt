@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
             } catch (e: Exception) {
                 e.printStackTrace()
                 Log.e("Login Exception", "Exception during login: ${e.message}")
-                showToast("Login Failed!!!")
+                showToast("Login Failed: Invalid data, Please check your input.")
             }
         }
 
@@ -78,7 +78,7 @@ class LoginActivity : AppCompatActivity() {
                 }
             } else {
                 Log.e("LOGIN ERROR", "ERROR")
-                showToast("Login Failed!!!")
+                showToast("Login Failed: Invalid data, Please check your input.")
             }
         }
     }

@@ -32,7 +32,6 @@ interface ApiService {
     @GET("auth/me")
     suspend fun getUserData(): UserResponse
 
-//    @Headers("Content-Type: application/json")
     @POST("predict")
     suspend fun getDiseasePrediction(@Body symptoms: Answer): DiseasePredictionResponse
 

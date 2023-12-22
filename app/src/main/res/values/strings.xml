@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">purrsonalcatapp</string>
     <string name="login">Login</string>
-    <string name="message_login_page">Welcome to purrsonal cat</string>
+    <string name="message_login_page">Access Your Cat\'s Health Information</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="register">Register</string>
@@ -23,15 +23,7 @@
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
         litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,abitur mi odio, condimentum sit
         amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
         molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
         interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
@@ -57,4 +49,171 @@
     <string name="gejala">Gejala Kucing Anda</string>
     <string name="diagnosis">symptom</string>
     <string name="disease">Disease</string>
+    <string name="judul">Judul</string>
+    <string name="detail">Detail article</string>
+    <string name="message_register">Register for Cat Disease Detection Services</string>
+
+
+    <string-array name="data_judul">
+        <item>Abses Pada Kucing: Penyebab dan Cara Mengobatinya</item>
+        <item>Bahaya dan Resiko Kelebihan Berat Badan Pada Kucing</item>
+        <item>Kucing Muntah Makanan? Berikut Penjelasannya!</item>
+        <item>Bulu Kucing Rontok? Berikut Cara Mengatasinya!</item>
+        <item>Penyakit Scabies pada Kucing</item>
+        <item>Apa itu Chylamidia pada kucing?</item>
+        <item>Kucing Cacingan? Bagaimana Cara Mengatasinya?</item>
+        <item>Pertolongan Pertama Kucing Sesak Nafas</item>
+        <item>Cara Menghilangkan Kutu Pada Kucing</item>
+        <item>Kenapa Kucing Menjulurkan Lidah? Simak Penjelasan Berikut!</item>
+        <item>Pyometra Pada Kucing: Penyebab, Gejala, dan Cara Menanganinya</item>
+        <item>Seputar Kucing Susah Buang Air Kecil</item>
+        <item>Mata Kucing Berselaput: Penyebab dan Cara Menyembuhkannya</item>
+        <item>Ketahui Syarat dan Efek Samping Vaksin Kucing</item>
+        <item>Penyebab giardiasis pada kucing</item>
+    </string-array>
+    <string-array name="data_description">
+        <item><b>Apa itu Abses pada Kucing?</b>\nPenyakit abses pada kucing adalah infeksi yang terjadi pada area kulit dan juga jaringan di bawahnya. Hal ini terjadi karena adanya bakteri yang masuk, baik melalui luka gigitan atau tusukan. Abses pada kucing ini mengandung bakteri dan juga sel darah putih. Abses pada kucing ini mudah diobati, namun harus dilakukan sesegera mungkin sebelum infeksinya menyebar lebih luas.\n\n<b>Penyebab Abses pada Kucing</b>\nPenyebab abses pada kucing yang paling umum adalah luka cakaran atau gigitan dari binatang lain, biasanya karena berkelahi. Saat terkena gigitan atau cakaran, bakteri dari gigi atau cakaran langsung masuk yang berakibat infeksi. Mengingat kulit kucing biasanya sembuh dengan cepat, biasanya luka tersebut akan segera rapat dan terperangkap di bawah kulit yang membuatnya berkembang di dalam lapisan kulit.\n\n<b>Cara Mengobati Abses pada Kucing</b>\nCara mengobati abses pada kucing tergantung dengan ukuran infeksi itu sendiri. Biasanya, dokter hewan akan membersihkan bagian luka dan memberikan antibiotik serta obat penghilang rasa sakit. Untuk untuk kasus abses yang parah, operasi dibutuhkan sebagai cara mengobati abses pada kucing. Sedangkan, untuk abses pada gigi kucing, biasanya akan dilakukan pencabutan gigi pada gigi yang bermasalah tersebut.</item>
+        <item>Seringkali Pro Plan mendapatkan pertanyaan seperti ini, “Apa sih makanan kucing yang bikin gemuk dan bulu bagus?” Banyak PetLovers yang ingin kucingnya gemuk, padahal sebenarnya banyak resiko kesehatan jika kucing kelebihan berat badan.\n\n
+
+<b>Diabetes</b>\n
+Salah satu penyakit yang berpotensi menyerang kucing yang terlalu gemuk adalah diabetes melitus. Bahkan menurut sebuah penelitian, kucing dengan dengan badan gemuk berpotensi terserang diabetes 2-4 kali lebih besar.\n\n
+
+<b>Bagaimana Mengukur Berat Badan Kucing?</b>
+Ada beberapa tips yang bisa PetLovers terapkan untuk mengecek apakah kucing kamu kelebihan berat badan atau tidak. Yakni dengan meraba bagian tubuhnya dan rasakan tulang rusuknya. Lebih detail bagaimana penerapannya, PetLovers bisa menyimaknya di sini.\n\n
+
+<b>Rekomendasi Makanan untuk Menjaga Berat Badan dan Rambut Bagus</b>
+Ini jawaban untuk PetLovers yang mencari makanan kucing yang bikin gemuk dan bulu bagus. Mungkin lebih tepatnya bukan gemuk, tapi menjaga berat badan.Setelah membaca resiko kesehatan yang dapat terjadi jika kucing kelebihan berat badan, sebaiknya langsung konsultasi dengan dokter hewan agar mendapatkan info cara perawatan tepat untuk kucing kamu.</item>
+        <item><b>Mengenal kucing muntah</b>\n
+Muntah merupakan proses pengeluaran isi lambung secara paksa melalui mulut. Biasanya, sebelum muntah, kucing memberikan beberapa tanda-tanda, seperti meneteskan air liur, menjilat bibir dan menelan berlebihan sebelum akhirnya ia muntah.\n\n
+
+<b>Kenapa kucing muntah makanan</b>\n
+Penyebab kucing muntah yang umum adalah karena ia terlalu banyak makan, atau bergerak terlalu cepat sesaat setelah makan, atau juga karena hairball, atau gumpalan rambut. Kucing terbiasa dengan self grooming dengan cara menjilat-jilat bagian tubuhnya. Nah, untuk kucing dengan rambut yang tebal, rambut tersebut bisa saja tertelan, dan saat jumlahnya terlalu banyak, hal tersebut akan menyumbat saluran pencernaannya dan membuatnya muntah. Namun, disamping itu, penyebab kucing muntah bisa juga merupakan tanda-tanda penyakit yang serius.\n\n
+
+<b>Perawatan kucing saat muntah makanan</b>\n
+Jika Anda menyadari kucing muntah, segera periksa kondisinya, mulai dari suhu tubuhnya hingga kotorannya. Jika ia mengalami demam dan diare, hal pertama yang perlu dilakukan adalah menjauhkan barang-barang yang mungkin menjadi alasan kucing menjadi muntah, dan juga menyimpan makanannya selama beberapa jam kedepan.\n\n
+
+Setelah kucing muntah makanan, usahakan untuk menjaga hidrasinya dengan menyediakan air minum yang cukup. Setelah ia berhenti muntah, perlahan-lahan berikan ia makanan untuk mengembalikan energinya. Dalam kondisi ini, hindari kucing kesayangan Anda mengkonsumsi makanan manusia untuk mencegahnya mengalami sakit perut lagi.</item>
+        <item>Bulu kucing rontok? Sering melihat rambut kucing bertebaran di rumah? Jangan khawatir, berikut ini kita akan membahas seputar bulu kucing rontok termasuk dengan penyebab dan cara mengatasinya. Pada dasarnya, ada banyak penyebab bulu kucing rontok, mulai dari faktor internal dan juga eksternal. Untuk lebih lanjutnya, yuk simak artikel berikut!\n\n
+
+<b>Kenapa Bulu Kucing Rontok?</b>\n
+Ada beberapa penyebab bulu kucing rontok, yang pertama karena alergi, baik karena makanan, gigitan serangga, ataupun debu. Biasanya, alergi ini menyebabkan rasa gatal yang tidak tertahankan, untuk meredakannya, para kucing menjilati bulunya hingga rontok dan bahkan adanya bintik-bintik kebotakan.\n
+
+Penyebab bulu kucing rontok yang kedua adalah adanya kutu dan tungau. Sama seperti alergi, saat adanya kutu atau tungau, kucing merasa gatal dan akan menjilati rambutnya hingga rontok. Parahnya, kutu dan tungau ini bisa menyebabkan kucing benar-benar menjilati rambutnya hingga rambutnya tercabut hingga dari bagian akarnya.\n
+
+Ketiga, bulu kucing rontok bisa jadi juga karena adanya rasa sakit atau nyeri. Biasanya ia menjilati bagian persendian yang sakit untuk mengurangi rasa nyeri, namun tanpa sadar, kebiasaan ini justru membuat bulu kucing rontok.\n
+
+Penyebab bulu kucing rontok selanjutnya adalah karena stres, bisa jadi karena  adanya anggota keluarga baru di rumah, atau baru pindah rumah. Saat ia merasa tidak nyaman atau merasa stres, kucing akan menggaruk bagian perutnya yang menyebabkan bulu kucing rontok.\n
+
+Selain penyebab di atas, bulu kucing rontok juga terjadi karena ia menderita penyakit tertentu. Untuk mengetahui hal ini, penting untuk mencari tahu lebih lanjut dengan memeriksakannya ke dokter.\n</item>
+        <item><b>Apa itu scabies kucing?</b>\n
+
+Penyakit scabies pada kucing adalah penyakit kulit yang disebabkan oleh tungau Sarcoptes scabiei, yaitu salah satu ektoparasit yang bisa menyerang kucing. Penularan ini terjadi karena adanya interaksi dengan kucing lain yang mengidap scabies, contohnya kucing rumahan yang berinteraksi dengan kucing liar.\n\n
+
+<b>Ciri-ciri penyakit scabies pada kucing</b>\n
+Scabies pada kucing merupakan salah satu faktor yang dapat menurunkan produktivitas kucing, hal ini terjadi karena parasit ini memakan jaringan tubuh sang kucing dan mengambil nutrisi dalam tubuhnya. Tak heran, penyakit kucing scabies ini membuat sang kucing terlihat lemas dan tidak bergairah.\n\n
+
+<b>Cara mengobati kucing scabies</b>\n
+Scabies pada kucing bisa diobati. Namun, cara mengobati kucing scabies membutuhkan resep dokter sesuai dengan kondisinya. Jika kucing Anda menunjukan tanda-tanda penyakit scabies pada kucing, segeralah membawanya ke dokter hewan agar segera dilakukan pemeriksaan dengan mikroskop untuk mencari keberadaan tungau tersebut.\n
+Setelah melakukan pemeriksaan, biasanya dokter akan memberikan obat antiparasit. Obat ini bisa diminum, dioles, atau disuntik tergantung dari tingkat keparahan penyakitnya. Jenis obat yang diberikan akan dipengaruhi dengan jenis tungau dan juga area tubuh yang terinfeksi. Selain itu, dokter juga akan memberikan obat anti gatal dan juga merekomendasikan shampo anti tungau. \n
+Dalam masa penyembuhannya, pastikan Anda membersihkan seluruh mainan sang kucing. Jika kucing Anda memiliki kandang, desinfektan juga kandangnya untuk menghentikan penyebaran scabies ini.\n
+Jika Anda memiliki lebih dari satu kucing di rumah dan salah satunya terinfeksi scabies, segeralah memeriksakan kucing lainnya. Setelah itu, pisahkan kucing yang terinfeksi scabies dengan kucing lainnya untuk menghindari penularan.</item>
+        <item>Klamidia pada kucing, juga dikenal sebagai klamidiosis kucing, adalah penyakit infeksi yang menyerang mata dan saluran pernapasan atas kucing. Penyakit ini disebabkan oleh bakteri Chlamydophila felis, yang berbeda dengan bakteri Chlamydia trachomatis yang menyebabkan klamidia pada manusia.\n\n
+
+<b>Penyebab Klamidia pada Kucing:</b>\n
+
+Kontak langsung dengan mata atau hidung kucing yang terinfeksi melalui cairan mata, hidung, atau bersin.
+Menelan kista bakteri Chlamydophila felis yang berasal dari kotoran kucing yang terinfeksi.
+Ibu kucing yang terinfeksi dapat menularkannya ke anak kucingnya melalui air susu saat menyusui.</item>
+        <item>Kucing yang bernapas dengan pendek, cepat dan dengan mulut terbuka merupakan bagian dari ciri ciri kucing sesak nafas. Untuk Anda pemilik kucing, yuk ketahui ciri ciri kucing sesak nafas dan juga pertolongan pertama kucing sesak nafas dalam artikel berikut.\n\n
+
+<b>Penyebab kucing sesak nafas</b>
+Sebelum membahas pertolongan pertama kucing sesak nafas, ada baiknya mengetahui kenapa kucing sesak nafas. Keadaan kucing susah bernafas dikenal dengan dispnea, yang bisa menimbulkan gejala ringan namun bertambah parah dalam hitungan waktu.\n\n
+
+<b>Ciri ciri kucing sesak nafas</b>
+Untuk mengetahui apakah kucing kesayangan Anda mengalami sesak nafas, berikut ciri-ciri yang bisa terlihat.
+Pertama, adanya perubahan dalam bernafas. Perubahan dalam bernafas ini terlihat dengan nafas yang pendek dan cepat, atau bisa juga bernafas dengan mulut terbuka, menganga dan nafas kucing terengah engah. Hal ini ia lakukan untuk mendapatkan lebih banyak oksigen dalam tubuhnya. Perubahan bernafas ini juga terdengar dari bunyinya yang terdengar berat atau bisa juga seperti mendengkur.\n
+Kedua, adanya perubahan gerakan dalam dada dan perutnya. Saat bernafas dengan pendek atau terengah-tengah, dada dan perut kucing akan terlihat bergerak dengan cepat karena ia sedang berusaha untuk mendapatkan lebih banyak oksigen dalam waktu cepat.\n
+Ketiga, terlihat kebingungan, tidak nyaman dan juga lemas. Tentu saja, saat kucing susah bernafas, ia merasa tidak nyaman dan kebingungan serta tidak berdaya. Jika Anda melihat adanya tanda-tanda kucing sesak nafas dan tidak mau makan, segeralah membawanya ke dokter sebelum kondisinya semakin menurun. </item>
+        <item>Cacing pada kucing yang paling umum adalah cacing gelang dan cacing pita. Keduanya menyebabkan ketidaknyamanan pada kucing, mulai dari lesu sampai penurunan berat badan. Jika Anda melihat ciri-ciri cacingan pada kucing, Anda bisa segera membawa kucing kesayangan Anda ke dokter hewan.\n\n
+
+<b>Cacing Kucing dan Penyebab Kucing Cacingan</b>
+Cacing gelang (Toxocara cati dan Toxascaris leonina) adalah dua jenis parasit yang paling umum pada anak kucing dan kucing dewasa. Cacing kucing jenis ini berukuran panjang, putih dan terlihat seperti spaghetti. Telur cacing ini biasanya berpindah melalui feses dan dapat hidup hingga bertahun-tahun di dalam tanah\n\n
+
+<b>Cara Mengatasi Kucing Cacingan</b>
+Ada banyak perawatan yang bisa dilakukan untuk mengatasi kucing cacingan, mulai dari obat-obatan cair, krim, butiran, tablet, bahkan cairan yang akan direkomendasikan oleh dokter hewan Anda\n\n
+
+Cacing gelang pada umumnya sering menyerang anak kucing, makanya sangat disarankan untuk memberikan perawatan cacing sejak usia dini, sejak usia dua hingga delapan minggu, lalu setiap bulan hingga ia berusia enam bulan, dan kemudian satu hingga tiga bulan sekali. Biasanya, anak kucing membutuhkan perawatan cacing pita jika ia memiliki kutu.\n\n</item>
+        <item><b>Mengenal kutu pada kucing</b>
+Kutu kucing adalah salah satu jenis kutu yang paling sering ditemukan pada kucing. Tapi, tidak jarang kutu landak dan kutu kelinci juga dialami oleh kucing kesayangan Anda. Seperti kutu pada manusia, kutu kucing juga menyebabkan gatal dan dapat menyebabkan beberapa alergi dan bahkan bisa berkembang yang bisa mempengaruhi kesehatan kucing kesayangan Anda.\n\n
+
+Biasanya, kutu kucing berwarna cokelat gelap dengan ukuran 1-2mm. Kutu kucing ini berkembang biak pada lingkungan yang hangat dan lembap. Kutu kucing mungkin tidak bisa terlihat secara kasat mata pada tubuh kucing, namun Anda mungkin bisa menemukan kutu kucing pada karpet, atau menemukan bintik hitam saat Anda menyisir rambut kucing kesayangan Anda. Untuk mengetahui apakah bintik hitam tersebut bersumber dari kutu, Anda bisa meletakkannya pada tissue basah. Jika ia berubah warna menjadi merah, bintik tersebut bersumber dari kutu kucing.\n\n
+
+<b>Mengenal kutu pada kucing</b>
+Kutu kucing adalah salah satu jenis kutu yang paling sering ditemukan pada kucing. Tapi, tidak jarang kutu landak dan kutu kelinci juga dialami oleh kucing kesayangan Anda. Seperti kutu pada manusia, kutu kucing juga menyebabkan gatal dan dapat menyebabkan beberapa alergi dan bahkan bisa berkembang yang bisa mempengaruhi kesehatan kucing kesayangan Anda.\n\n
+
+Biasanya, kutu kucing berwarna cokelat gelap dengan ukuran 1-2mm. Kutu kucing ini berkembang biak pada lingkungan yang hangat dan lembap. Kutu kucing mungkin tidak bisa terlihat secara kasat mata pada tubuh kucing, namun Anda mungkin bisa menemukan kutu kucing pada karpet, atau menemukan bintik hitam saat Anda menyisir rambut kucing kesayangan Anda. Untuk mengetahui apakah bintik hitam tersebut bersumber dari kutu, Anda bisa meletakkannya pada tissue basah. Jika ia berubah warna menjadi merah, bintik tersebut bersumber dari kutu kucing.\n\n</item>
+        <item>Mungkin Anda pernah memperhatikan kucing kesayangan Anda seringkali menjulurkan lidahnya. Ada beberapa alasan kenapa kucing menjulurkan lidah, baik karena habitatnya, atau bisa juga karena masalah kesehatan. Ingin tau penjelasannya? Simak artikel berikut!\n\n
+
+<b>Lidah kucing digunakan untuk makan dan minum</b>\n
+Kucing menggunakan lidahnya untuk menyendok makanan dan minumannya. Bagi manusia, hal ini memang terbilang cukup tidak masuk akal, namun lidah kucing bisa melakukannya. Kucing terlihat menjilat-jilat makanan dan minumannya, padahal ia sedang mentransfer atau memasukkan makanan dan minumannya tersebut. Lidah kucing cukup unik, karena ia bisa membuat lidahnya seperti melingkar seakan-akan seperti mangkuk kecil yang bisa menampung makanan dan bahkan air yang kemudian ditelan.\n\n
+
+<b>Lidah kucing keluar saat grooming</b>\n
+Selain untuk makan dan minum, alasan kenapa kucing menjulurkan lidah adalah untuk grooming. Mungkin Anda pernah merasakan tekstur lidah kucing, yaitu sedikit kasar. Nah, tekstur inilah yang bermanfaat bagi kucing untuk membersihkan tubuhnya. Saat grooming, kucing menjulurkan lidah sambil menjilati atau menggigiti benda atau kotoran yang mungkin menempel pada rambutnya. Saat kucing menjulurkan lidah, ini juga merupakan caranya untuk mengatasi rambut yang kusut.</item>
+        <item>Pyometra pada kucing merupakan kondisi serius yang perlu menjadi pertimbangan jika Anda tidak melakukan steril pada kucing. Lalu, apa itu pyometra pada kucing dan apa saja penyebabnya? Simak artikel berikut untuk lebih lanjutnya.\n\n
+
+<b>Apa itu pyometra pada kucing</b>\n
+Pyometra pada kucing adalah kondisi infeksi rahim kucing yang serius pada kucing betina. Kondisi ini biasanya terjadi karena infeksi bakteri , biasanya beberapa minggu setelah kucing betina birahi. Pyometra pada kucing ini merupakan kondisi yang serius yang membutuhkan bantuan dari dokter hewan. Biasanya, penanganan pyometra pada kucing ini akan meliputi operasi bedah untuk mengeluarkan uterus yang terinfeksi.</item>
+        <item>Sering mencoba makan sembarangan adalah kebiasaan yang sering menyebabkan kucing sakit perut. Sayangnya, kita tidak tahu kapan kucing sakit perut dan apa yang ia rasakan. Namun, berikut beberapa penjelasan dan juga ciri ciri kucing sakit perut yang bisa membantu mengetahui apa yang dibutuhkan kucing kesayangan Anda.\n\n
+
+<b>Penyebab kucing sakit perut</b>\n
+Ada banyak penyebab kucing sakit perut, salah satunya adalah salah makan. Salah makan ini bisa dikarenakan makan makanan yang tidak seharusnya, makan rumput, atau makan makanan manusia. Selain itu, penyebab kucing sakit perut juga bisa jadi karena transisi diet yang terlalu cepat dan infeksi parasit. Dengan gejala yang lebih parah, biasanya kucing sakit perut ini juga menjadi tanda adanya permasalahan yang lebih serius. Untuk mengetahui lebih jelasnya, Anda membutuhkan bantuan dokter.\n\n
+
+<b>Cara mengobati kucing sakit perut</b>\n
+Cara mengobati kucing sakit perut biasanya dengan memberikan obat antimual. Obat ini bisa Anda dapatkan di klinik dokter hewan setelah dokter melakukan pengecekan. Penyebab kucing sakit perut berbeda-beda, oleh karena itu cara mengobati kucing sakit perut juga perlu disesuaikan dengan penyebabnya.</item>
+        <item>Sebagai pemilik kucing, sudah menjadi rutinitas wajib untuk membersihkan atau membuang kotoran dalam kotak pasirnya setiap hari, karena idealnya kucing buang air kecil satu sampai dua kali sehari. Lalu, bagaimana dengan kotak pasir yang masih bersih alias kucing tidak bisa pipis sama sekali? Untuk kondisi kucing susah buang air kecil, ketahui lebih jelasnya dalam artikel berikut.\n\n
+
+<b>Kenapa kucing susah buang air kecil?</b>\n
+Kucing susah buang air kecil atau kucing pipis sedikit sedikit mengindikasikan adanya sesuatu yang terjadi pada tubuhnya. Salah satu penyebab kenapa kucing pipis sedikit sedikit atau susah buang air kecil adalah stres. Kucing adalah salah satu hewan yang sensitif yang mudah stres karena adanya ketidaknyamanan atau perubahan dalam kebiasaan atau gaya hidupnya. Stres ini bisa terjadi karena hal yang langsung berhubungan dengannya, seperti kotak pasir yang baru, atau bisa juga perubahan yang terjadi di sekitarnya, misalnya adanya anggota keluarga baru di rumah, atau pindah ke rumah baru. \n
+Sebelum mengkhawatirkan adanya penyakit serius karena kucing susah buang air kecil, cobalah meninjau kembali perubahan yang terjadi dalam beberapa waktu belakangan ini. Jika stres ini terjadi karena perubahan kotak pasir yang baru, cobalah gunakan kotak pasir lamanya untuk mengetahui apakan adanya perubahan. Jika ia merasa stres karena perubahan lain di rumah, cobalah untuk membuatnya nyaman dengan menghabiskan lebih banyak waktu atau mengajaknya bermain.\n</item>
+        <item>Pernah lihat mata kucing berselaput? Jika diperhatikan, mata kucing yang berselaput ini terlihat janggal dan membuatnya tidak nyaman. Tentu saja, selaput ini dapat disebabkan oleh berbagai faktor yang bisa mempengaruhi penglihatan kucing. Untuk itu, yuk simak penjelasan mengenai mata kucing berselaput dalam artikel berikut.\n\n
+
+<b>Kenapa mata kucing berselaput?</b>
+Ada banyak faktor penyebab mata kucing berselaput, mulai dari cedera sampai dengan penyakit serius, berikut beberapa penyebab mata kucing berselaput:\n
+Pertama, adanya ulserasi atau luka pada kornea mata. Kondisi ini bisa terjadi karena trauma atas benturan atau paparan bahan kimia. Jika mata kucing tertutup selaput putih karena ulserasi kornea, biasanya mata kucing akan terlihat merah dengan adanya luka pada bola mata. Selain itu, mata kucing dengan kondisi ini akan lebih rentan atau sensitif terhadap cahaya. Jika Anda melihat adanya tanda-tanda ini, segeralah lakukan pengecekan di dokter.\n
+Kedua, keratitis yaitu infeksi, cedera, atau virus. Kondisi satu ini merupakan kondisi yang cukup serius yang membutuhkan penanganan dokter dengan segera.\n
+Ketiga, katarak yang umumnya dialami oleh kucing senior. Kondisi mata kucing tertutup selaput putih ini membuat kucing sulit melihat, dan bahkan bisa juga menyebabkan kebutaan.\n
+Selanjutnya, glaukoma, yaitu penumpukan cairan yang menekan saraf optik. Tanda kucing yang mengalami glaukoma adalah kondisi mata membesar, kornea keruh, mata merah, pupil melebar dan juga terlihat tidak nyaman dengan matanya. \n
+Terakhir, penyebab mata kucing berselaput putih juga bisa jadi karena sedang mengalami demam atau sedang dehidrasi. Saat demam, selaput matanya akan cenderung lebih kering dan membuat keelastisitas membrannya berkurang. \n\n
+
+<b>Cara mengobati selaput putih pada mata kucing</b>
+Mengingat penyebab mata kucing berselaput beranekaragam, oleh karena itu cara menghilangkan selaput putih pada mata kucing juga tergantung dengan kondisinya. Umumnya, cara mengobati selaput putih pada mata kucing bisa dilakukan dengan memberikan antibiotik, tetes mata dan juga salep pereda nyeri yang bisa didapatkan dengan resep dokter. Namun, untuk kondisi yang lebih serius seperti katarak perlu dilakukan operasi untuk mengembalikan kenyamanan matanya.</item>
+        <item>Vaksin adalah salah satu cara untuk menjaga kesehatan kucing dan menjaga daya tahan tubuhnya. Ada banyak jenis vaksin kucing yang bisa diberikan, mulai dari vaksin rabies, vaksin FCV, sampai dengan vaksin FPV. Setiap jenis vaksin kucing ini memiliki fungsi yang berbeda-beda yang tergantung dengan usia, kebutuhan dan juga kondisi kesehatannya. Sebagai pemilik kucing, yuk ketahui syarat dan efek samping vaksin kucing dalam artikel berikut ini!\n\n
+
+<b>Pastikan tubuh dalam keadaan sehat sebelum vaksin</b>\n
+Syarat vaksin kucing yang harus dipenuhi adalah kondisi kesehatannya. Syarat vaksin kucing yang paling penting adalah suhu tubuh yang normal, nafsu makan dan minum yang baik, tidak batuk, atau flu. Setelah memastikan kondisi tersebut sudah sesuai, barulah Anda bisa melakukan vaksin sesuai dengan jenis vaksin kucing yang dibutuhkan.</item>
+        <item>Giardiasis adalah infeksi usus kecil yang umum pada kucing yang disebabkan oleh parasit mikroskopis Giardia lamblia. Parasit ini berbentuk seperti bola dan dapat hidup di usus kecil kucing, menempel pada dinding usus dan mengganggu penyerapan nutrisi.\n\n
+Giardiasis adalah infeksi usus kecil yang umum pada kucing yang disebabkan oleh parasit mikroskopis Giardia lamblia. Parasit ini berbentuk seperti bola dan dapat hidup di usus kecil kucing, menempel pada dinding usus dan mengganggu penyerapan nutrisi.\n\n
+<b>Penyebab giardiasis pada kucing:</b>\n
+-Menelan kista Giardia yang berasal dari kotoran kucing atau hewan lain yang terinfeksi. Kista ini sangat tahan terhadap lingkungan dan dapat\n
+-bertahan hidup di tanah atau air selama berminggu-minggu.\n
+-Kontak langsung dengan kucing yang terinfeksi melalui bulu atau tinja yang terkontaminasi.\n
+-Minum air yang terkontaminasi kista Giardia, seperti air kolam, sungai, atau genangan air.\n</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/abses</item>
+        <item>@drawable/diabetes</item>
+        <item>@drawable/gastritis</item>
+        <item>@drawable/rontok</item>
+        <item>@drawable/scabies</item>
+        <item>@drawable/chylamidia</item>
+        <item>@drawable/pneumonia</item>
+        <item>@drawable/cacingan</item>
+        <item>@drawable/kutu</item>
+        <item>@drawable/lidah</item>
+        <item>@drawable/pyometra</item>
+        <item>@drawable/susahbuang</item>
+        <item>@drawable/matakucing</item>
+        <item>@drawable/vaksin</item>
+        <item>@drawable/giardiasis</item>
+    </integer-array>
 </resources>

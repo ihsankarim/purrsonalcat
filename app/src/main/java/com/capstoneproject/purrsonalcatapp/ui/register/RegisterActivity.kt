@@ -59,10 +59,10 @@ class RegisterActivity : AppCompatActivity() {
                         viewModel.registerUser(username, email, password)
                     } catch (e: Exception) {
                         showToast("Error during registration: ${e.message}")
-                        Log.e("Error during registration:",  "${e.message}")
+                        Log.e("Error during registration:", "${e.message}")
                     }
                 } else {
-                    showToast("Invalid data. Please check your input.")
+                    showToast("Register Failed: Invalid data, Please check your input.")
                 }
             }
 
