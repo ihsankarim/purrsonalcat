@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.capstoneproject.purrsonalcatapp.data.local.pref.AuthPreferences
@@ -52,15 +53,22 @@ class LoginActivity : AppCompatActivity() {
                 showToast("Login Failed: Invalid data, Please check your input.")
             }
         }
+        viewModel.isLoading.observe(this@LoginActivity, { isLoading ->
+            showLoading(isLoading)
+        })
 
         binding.btnRegister.setOnClickListener {
+            viewModel.setLoading(false)
             val intent = Intent(this@LoginActivity, RegisterActivity::class.java)
             startActivity(intent)
             finish()
         }
 
+
+
         viewModel.loginResult.observe(this) { response ->
             if (!response.error!!) {
+                viewModel.setLoading(false)
                 val token = response.data?.token
                 val username = response.data?.username
                 lifecycleScope.launch {
@@ -77,6 +85,7 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
             } else {
+                viewModel.setLoading(false)
                 Log.e("LOGIN ERROR", "ERROR")
                 showToast("Login Failed: Invalid data, Please check your input.")
             }
@@ -85,5 +94,43 @@ class LoginActivity : AppCompatActivity() {
 
     private fun showToast(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    }
+
+    private fun showLoading(isLoading: Boolean) {
+        if (isLoading) {
+            binding.apply {
+                progressBar.visibility = View.VISIBLE
+                imageView2.visibility = View.GONE
+                underlineLogo.visibility = View.GONE
+                tvDontHaveAccount.visibility = View.GONE
+                titleTextView.visibility = View.GONE
+                emailEditTextView.visibility = View.GONE
+                passwordEditTextLayout.visibility = View.GONE
+                passwordTextView.visibility = View.GONE
+                passwordEditText.visibility = View.GONE
+                emailEditText.visibility = View.GONE
+                emailTextView.visibility = View.GONE
+                messageTextView.visibility = View.GONE
+                btnRegister.visibility = View.GONE
+                loginButton.visibility = View.GONE
+            }
+        } else {
+            binding.apply {
+                progressBar.visibility = View.GONE
+                imageView2.visibility = View.VISIBLE
+                underlineLogo.visibility = View.VISIBLE
+                tvDontHaveAccount.visibility = View.VISIBLE
+                titleTextView.visibility = View.VISIBLE
+                emailEditTextView.visibility = View.VISIBLE
+                passwordEditTextLayout.visibility = View.VISIBLE
+                passwordTextView.visibility = View.VISIBLE
+                passwordEditText.visibility = View.VISIBLE
+                emailEditText.visibility = View.VISIBLE
+                emailTextView.visibility = View.VISIBLE
+                messageTextView.visibility = View.VISIBLE
+                btnRegister.visibility = View.VISIBLE
+                loginButton.visibility = View.VISIBLE
+            }
+        }
     }
 }

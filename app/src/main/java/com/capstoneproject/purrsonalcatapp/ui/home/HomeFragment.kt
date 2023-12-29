@@ -66,8 +66,13 @@ class HomeFragment : Fragment() {
             viewModel = ViewModelProvider(this@HomeFragment, AuthViewModelFactory(repository))
                 .get(HomeViewModel::class.java)
 
+            viewModel.isLoading.observe(viewLifecycleOwner) { isLoading ->
+                showLoading(isLoading)
+            }
+
             viewModel.userData.collect { userResponse ->
                 if (userResponse != null) {
+                    viewModel.setLoading(false)
                     val username = userResponse.data?.username ?: "Guest"
                     binding.tvHomeUsername.text = "Hi, $username"
                 }
@@ -83,6 +88,22 @@ class HomeFragment : Fragment() {
                     requireActivity().finish()
                 }
             }
+        }
+    }
+
+    private fun showLoading(isLoading: Boolean) {
+        if (isLoading) {
+            binding.progressBar.visibility = View.VISIBLE
+            binding.rvArtikel.visibility = View.GONE
+            binding.tvHomeUsername.visibility = View.GONE
+            binding.tvSubtittle.visibility = View.GONE
+            binding.viewBackground.visibility = View.GONE
+        } else {
+            binding.progressBar.visibility = View.GONE
+            binding.rvArtikel.visibility = View.VISIBLE
+            binding.tvHomeUsername.visibility = View.VISIBLE
+            binding.tvSubtittle.visibility = View.VISIBLE
+            binding.viewBackground.visibility = View.VISIBLE
         }
     }
 

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import com.capstoneproject.purrsonalcatapp.R
 import com.capstoneproject.purrsonalcatapp.data.local.pref.AuthPreferences
@@ -66,15 +67,21 @@ class RegisterActivity : AppCompatActivity() {
                 }
             }
 
+            viewModel.isLoading.observe(this@RegisterActivity, { isLoading ->
+                showLoading(isLoading)
+            })
+
             viewModel.registerResult.observe(this@RegisterActivity) { response ->
                 Log.d("OBSERVE", "Observing register result: $response")
                 if (!response.error!!) {
+                    viewModel.setLoading(false)
                     binding.edRegisterName.text = null
                     binding.edRegisterEmail.text = null
                     binding.edRegisterPassword.text = null
                     showToast("Register success")
                     Log.d("REGISTER SUCCESS", "RESULT: $response")
                 } else {
+                    viewModel.setLoading(false)
                     showToast("Register Failed, you must ensure the data is valid")
                 }
             }
@@ -91,5 +98,51 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun showToast(message: String) {
         Toast.makeText(this@RegisterActivity, message, Toast.LENGTH_SHORT).show()
+    }
+
+    private fun showLoading(isLoading: Boolean) {
+        if (isLoading) {
+            binding.apply {
+                progressBar.visibility = View.VISIBLE
+                underlineLogo.visibility = View.GONE
+                messageTextView.visibility = View.GONE
+                tvHaveAccount.visibility = View.GONE
+                edRegisterEmail.visibility = View.GONE
+                edRegisterName.visibility = View.GONE
+                edRegisterPassword.visibility = View.GONE
+                btnLogin.visibility = View.GONE
+                btnRegister.visibility = View.GONE
+                emailEditTextLayout.visibility = View.GONE
+                nameEditTextLayout.visibility = View.GONE
+                passwordEditTextLayout.visibility = View.GONE
+                titleTextView.visibility = View.GONE
+                emailTextView.visibility = View.GONE
+                passwordTextView.visibility = View.GONE
+                nameTextView.visibility = View.GONE
+                btnRegister.visibility = View.GONE
+                imageView.visibility = View.GONE
+            }
+        } else {
+            binding.apply {
+                progressBar.visibility = View.GONE
+                edRegisterEmail.visibility = View.VISIBLE
+                messageTextView.visibility = View.VISIBLE
+                edRegisterName.visibility = View.VISIBLE
+                underlineLogo.visibility = View.VISIBLE
+                tvHaveAccount.visibility = View.VISIBLE
+                edRegisterPassword.visibility = View.VISIBLE
+                btnLogin.visibility = View.VISIBLE
+                btnRegister.visibility = View.VISIBLE
+                emailEditTextLayout.visibility = View.VISIBLE
+                nameEditTextLayout.visibility = View.VISIBLE
+                passwordEditTextLayout.visibility = View.VISIBLE
+                titleTextView.visibility = View.VISIBLE
+                emailTextView.visibility = View.VISIBLE
+                passwordTextView.visibility = View.VISIBLE
+                nameTextView.visibility = View.VISIBLE
+                btnRegister.visibility = View.VISIBLE
+                imageView.visibility = View.VISIBLE
+            }
+        }
     }
 }

@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">purrsonalcatapp</string>
+    <string name="app_name">PurrsonalCat</string>
     <string name="login">Login</string>
     <string name="message_login_page">Access Your Cat\'s Health Information</string>
     <string name="email">Email</string>

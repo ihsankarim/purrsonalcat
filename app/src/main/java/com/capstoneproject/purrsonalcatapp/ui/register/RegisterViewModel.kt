@@ -13,9 +13,14 @@ class RegisterViewModel(private val authRepository: AuthRepository) : ViewModel(
     private val _registerResult = MutableLiveData<RegisterResponse>()
     val registerResult: LiveData<RegisterResponse> = _registerResult
 
+    private val _isLoading = MutableLiveData<Boolean>()
+    val isLoading: LiveData<Boolean>
+        get() = _isLoading
+
     fun registerUser(username: String, email: String, password: String) {
         viewModelScope.launch {
             try {
+                _isLoading.value = true
                 val response = authRepository.registerAuth(username, email, password)
                 _registerResult.value = response
             } catch (e: Exception) {
@@ -24,5 +29,9 @@ class RegisterViewModel(private val authRepository: AuthRepository) : ViewModel(
                     RegisterResponse(error = true, message = "An error occurred.")
             }
         }
+    }
+
+    fun setLoading(isLoading: Boolean) {
+        _isLoading.value = isLoading
     }
 }
